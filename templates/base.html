@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div>
+                <a href="#" class="nav-logo">Aishwarya</a>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <div class="nav-close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="/#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="/#about" class="nav-link ">About</a></li>
+                    <li class="nav-item"><a href="/#skills" class="nav-link ">Skills</a></li>
+                    <li class="nav-item"><a href="/#services" class="nav-link ">Services</a></li>
+                    <li class="nav-item"><a href="/#works" class="nav-link ">Works</a></li>
+                    <li class="nav-item"><a href="/#contact" class="nav-link ">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer section">
+        <div class="footer-container bd-grid">
+            <h1 class="footer-title">Aishwarya</h1>
+            <p class="footer-description">I'm a passionate Developer with a keen eye for creating beautiful, responsive, and user-friendly websites. I stay current with the latest web technologies and frameworks to deliver cutting-edge solutions.</p>
+
+            <div class="footer-social">
+                <a href="#" class="footer-link"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="footer-link"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="footer-link"><i class="bx bxl-whatsapp"></i></a>
+            </div>
+
+            <p class="footer-copy"><span>ULTRA CODE</span>. All rights reserved - 2025</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

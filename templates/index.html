@@ -1,0 +1,364 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="home" id="home">
+    <div class="home-container bd-grid">
+        <div class="home-data">
+            <div class="home-img">
+                <img src="{{ url_for('static', filename='images/pp.jpg') }}" alt="Profile Picture">
+            </div>
+
+            <h1 class="home-title">Aishwarya I. T.</h1>
+            <span class="home-profession">Software Engineer</span>
+
+            <div class="home-social">
+                <a href="#" class="home-social-link"><i class="bx bxl-linkedin"></i></a>
+                <a href="#" class="home-social-link"><i class="bx bxl-github"></i></a>
+                <a href="#" class="home-social-link"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="home-social-link"><i class="bx bxl-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about section" id="about">
+    <span class="section-subtitle">My intro</span>
+    <h2 class="section-title">About me</h2>
+
+    <div class="about-container bd-grid">
+        <div class="about-data">
+            <p class="about-description">I'm a passionate Developer with a keen eye for creating beautiful, responsive, and user-friendly websites. Whether it's optimizing performance, ensuring cross-browser compatibility, or implementing interactive features, I'm dedicated to crafting high-quality web applications that exceed client expectations.</p>
+            <img src="{{ url_for('static', filename='images/dp.jpg') }}" alt="about image" class="about-img">
+        </div>
+
+        <div>
+            <div class="about-information">
+                <h3 class="about-information-title">Information</h3>
+
+                <div class="about-information-data">
+                    <i class="bx bx-user about-information-icon"></i>
+                    <span>Aishwarya I. T.</span>
+                </div>
+
+                <div class="about-information-data">
+                    <i class="bx bx-phone about-information-icon"></i>
+                    <span>+1 999-999-999</span>
+                </div>
+
+                <div class="about-information-data">
+                    <i class="bx bx-envelope about-information-icon"></i>
+                    <span>email@gmail.com</span>
+                </div>
+            </div>
+
+            <div class="about-information">
+                <h3 class="about-information-title">Experience and Support</h3>
+
+                <div class="about-information-data">
+                    <i class="bx bx-medal about-information-icon"></i>
+                    <div>
+                        <span class="about-information-subtitle">12 Years Job</span>
+                        <span class="about-information-subtitle-small">Experience</span>
+                    </div>
+                </div>
+
+                <div class="about-information-data">
+                    <i class="bx bx-briefcase about-information-icon"></i>
+                    <div>
+                        <span class="about-information-subtitle">100+ Projects</span>
+                        <span class="about-information-subtitle-small">Completed</span>
+                    </div>
+                </div>
+
+                <div class="about-information-data">
+                    <i class="bx bx-support about-information-icon"></i>
+                    <div>
+                        <span class="about-information-subtitle">Support</span>
+                        <span class="about-information-subtitle-small">Online 24/7</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills section" id="skills">
+    <span class="section-subtitle">Why Choose me</span>
+    <h2 class="section-title">My Expertise Area</h2>
+
+    <div class="skills-container bd-grid">
+        <div class="skills-content">
+            <h3 class="skills-subtitle">Frontend</h3>
+
+            <div class="skills-data">
+                <div class="skills-name">HTML/CSS</div>
+                <div class="skills-number">80%</div>
+                <div class="skills-bar skills-html"></div>
+            </div>
+
+            <div class="skills-data">
+                <div class="skills-name">Javascript</div>
+                <div class="skills-number">90%</div>
+                <div class="skills-bar skills-js"></div>
+            </div>
+
+            <div class="skills-data">
+                <div class="skills-name">React</div>
+                <div class="skills-number">70%</div>
+                <div class="skills-bar skills-react"></div>
+            </div>
+
+            <div class="skills-data">
+                <div class="skills-name">Angular</div>
+                <div class="skills-number">60%</div>
+                <div class="skills-bar skills-angular"></div>
+            </div>
+
+        </div>
+
+        <div class="skills-content">
+            <h3 class="skills-subtitle">Backend</h3>
+
+            <div class="skills-data">
+                <div class="skills-name">PHP</div>
+                <div class="skills-number">80%</div>
+                <div class="skills-bar skills-php"></div>
+            </div>
+
+            <div class="skills-data">
+                <div class="skills-name">Node JS</div>
+                <div class="skills-number">70%</div>
+                <div class="skills-bar skills-node"></div>
+            </div>
+
+            <div class="skills-data">
+                <div class="skills-name">Firebase</div>
+                <div class="skills-number">90%</div>
+                <div class="skills-bar skills-firebase"></div>
+            </div>
+
+            <div class="skills-data">
+                <div class="skills-name">Python</div>
+                <div class="skills-number">60%</div>
+                <div class="skills-bar skills-python"></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="education section">
+    <span class="section-subtitle">Qualification</span>
+    <h2 class="section-title">My Education</h2>
+
+    <div class="education-container bd-grid">
+        <div class="education-content">
+            <div>
+                <h3 class="education-year">2010 - 2013</h3>
+                <span class="education-university">University of Technology</span>
+            </div>
+
+            <div class="education-time">
+                <span class="education-rounder"></span>
+                <span class="education-line"></span>
+            </div>
+
+            <div>
+                <h3 class="education-race">Certificate Development</h3>
+                <span class="education-specialty">Frontend Developer</span>
+            </div>
+        </div>
+
+        <div class="education-content">
+            <div>
+                <h3 class="education-year">2014 - 2017</h3>
+                <span class="education-university">University of Technology</span>
+            </div>
+
+            <div class="education-time">
+                <span class="education-rounder"></span>
+                <span class="education-line"></span>
+            </div>
+
+            <div>
+                <h3 class="education-race">Certificate Development</h3>
+                <span class="education-specialty">Backend Developer</span>
+            </div>
+        </div>
+
+        <div class="education-content">
+            <div>
+                <h3 class="education-year">2018 - 2020</h3>
+                <span class="education-university">University of Technology</span>
+            </div>
+
+            <div class="education-time">
+                <span class="education-rounder"></span>
+                <span class="education-line"></span>
+            </div>
+
+            <div>
+                <h3 class="education-race">Certificate Design</h3>
+                <span class="education-specialty">UI/UX Designer</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services section" id="services">
+    <span class="section-subtitle">What I Offer</span>
+    <h2 class="section-title">My Services</h2>
+
+    <div class="services-container bd-grid">
+        <div class="services-content">
+            <i class="bx bx-code services-icon"></i>
+            <h3 class="services-title">Web Design</h3>
+            <p class="services-description">I create modern, responsive websites that make a lasting impression. My designs focus on user experience, combining attractive aesthetics with intuitive navigation to help your business stand out online. From landing pages to full-scale web applications, I deliver custom solutions that align with your brand and business goals.</p>
+        </div>
+
+        <div class="services-content">
+            <i class="bx bx-pen services-icon"></i>
+            <h3 class="services-title">Graphic Design</h3>
+            <p class="services-description">I specialize in creating visually striking designs that communicate your message effectively. From brand identity and logos to marketing materials and social media graphics, I combine creativity with strategic thinking to deliver designs that capture attention and resonate with your target audience. Every project is crafted with precision, ensuring your brand stands out in today's competitive digital landscape.</p>
+        </div>
+
+        <div class="services-content">
+            <i class="bx bx-brush services-icon"></i>
+            <h3 class="services-title">UI/UX Design</h3>
+            <p class="services-description">I create intuitive and engaging user experiences through thoughtful interface design. By combining user research, wireframing, and interactive prototyping, I develop digital solutions that are both beautiful and functional. My user-centered approach ensures that every element serves a purpose, resulting in products that are easy to use, visually appealing, and drive user engagement.</p>
+        </div>
+
+        <div class="services-content">
+            <i class="bx bx-server services-icon"></i>
+            <h3 class="services-title">Backend Development</h3>
+            <p class="services-description">I specialize in building robust and scalable server-side solutions that power modern web applications. Using technologies like Node.js, PHP, and various databases, I develop secure APIs, implement efficient data management systems, and create reliable server architectures. My focus is on writing clean, maintainable code that ensures optimal performance and seamless integration with frontend systems.</p>
+        </div>
+
+        <div class="services-content">
+            <i class="bx bx-pencil services-icon"></i>
+            <h3 class="services-title">Content Writing</h3>
+            <p class="services-description">I craft engaging and SEO-optimized content that tells your story and connects with your audience. From website copy and blog posts to marketing materials and social media content, I deliver clear, compelling writing that drives engagement and conversions. My content strategy combines creativity with data-driven insights to ensure your message reaches and resonates with your target market.</p>
+        </div>
+
+        <div class="services-content">
+            <i class="bx bx-mobile services-icon"></i>
+            <h3 class="services-title">Mobile Interface</h3>
+            <p class="services-description">I design and develop intuitive mobile interfaces that provide exceptional user experiences across all devices. Specializing in responsive design and mobile-first approaches, I create applications that combine smooth functionality with modern aesthetics. From native apps to progressive web applications, I ensure your mobile presence is fast, engaging, and optimized for today's on-the-go users.</p>
+        </div>
+    </div>
+</section>
+
+<section class="project section">
+    <div class="project-container bd-grid">
+        <div class="project-data">
+            <h2 class="section-title project-title">Do you have any project in mind?</h2>
+            <p class="project-description">If you have any project in mind, please contact me. I will be happy to help you.</p>
+            <a href="#contact" class="button button-light">Contact Me</a>
+        </div>
+
+        <img src="{{ url_for('static', filename='images/project.png') }}" alt="project image" class="project-img">
+    </div>
+</section>
+
+<section class="works section" id="works">
+    <span class="section-subtitle">My Portfolio</span>
+    <h2 class="section-title">Recent Works</h2>
+
+    <div class="works-container bd-grid">
+        <div class="works-img">
+            <img src="https://i.postimg.cc/44W4Mjqn/work1.jpg" alt="works project">
+
+            <div class="works-data">
+                <a href="/project" class="works-link"><i class="bx bx-link-alt"></i></a>
+                <span class="works-title">Work 1</span>
+            </div>
+        </div>
+
+        <div class="works-img">
+            <img src="https://i.postimg.cc/3RJ5FxK1/work2.jpg" alt="works project">
+
+            <div class="works-data">
+                <a href="/project" class="works-link"><i class="bx bx-link-alt"></i></a>
+                <span class="works-title">Work 2</span>
+            </div>
+        </div>
+
+        <div class="works-img">
+            <img src="https://i.postimg.cc/d1HMHc3Y/work3.jpg" alt="works project">
+
+            <div class="works-data">
+                <a href="/project" class="works-link"><i class="bx bx-link-alt"></i></a>
+                <span class="works-title">Work 3</span>
+            </div>
+        </div>
+
+        <div class="works-img">
+            <img src="https://i.postimg.cc/d3pbFRGN/work4.jpg" alt="works project">
+
+            <div class="works-data">
+                <a href="/project" class="works-link"><i class="bx bx-link-alt"></i></a>
+                <span class="works-title">Work 4</span>
+            </div>
+        </div>
+
+        <div class="works-img">
+            <img src="https://i.postimg.cc/VshQXw29/work5.jpg" alt="works project">
+
+            <div class="works-data">
+                <a href="/project" class="works-link"><i class="bx bx-link-alt"></i></a>
+                <span class="works-title">Work 5</span>
+            </div>
+        </div>
+
+        <div class="works-img">
+            <img src="https://i.postimg.cc/wTsKVPdC/work6.jpg" alt="works project">
+
+            <div class="works-data">
+                <a href="/project" class="works-link"><i class="bx bx-link-alt"></i></a>
+                <span class="works-title">Work 6</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact section" id="contact">
+    <span class="section-subtitle">Contact me</span>
+    <h2 class="section-title">Get in Touch</h2>
+
+    <div class="contact-container bd-grid">
+        <form action="/contact" class="contact-form" method="post">
+            <input id="csrf_token" name="csrf_token" type="hidden" value="{{ csrf_token() }}">
+            <div class="contact-inputs">
+                <input type="text" placeholder="Name" class="contact-input" name="contact_name" required>
+                <input type="email" placeholder="Email" class="contact-input" name="contact_email" required>
+            </div>
+
+            <input type="text" placeholder="Project" class="contact-input" name="contact_project" required>
+
+            <textarea name="contact_message" id="" cols="0" rows="10" class="contact-input" placeholder="Your Message" required></textarea>
+
+            <input type="submit" value="Send Message" class="button contact-button" >
+        </form>
+
+        <div>
+            <div class="contact-info">
+                <h3 class="contact-subtitle">Call me</h3>
+                <span class="contact-text">+1 999-999-999</span>
+                <span class="contact-text">+1 222-222-222</span>
+            </div>
+
+            <div class="contact-info">
+                <h3 class="contact-subtitle">E-mail</h3>
+                <span class="contact-text">email@gmail.com</span>
+                <span class="contact-text">contactme@gmail.com</span>
+            </div>
+
+            <div class="contact-info">
+                <h3 class="contact-subtitle">Location</h3>
+                <span class="contact-text">100, M.G. Road,</span>
+                <span class="contact-text">Haryana - India</span>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
